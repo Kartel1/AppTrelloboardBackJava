@@ -1,0 +1,184 @@
+2023-07-21 15:05:17.737  INFO 10480 --- [restartedMain] o.t.webapp.TrelloBoardWebappApplication  : Starting TrelloBoardWebappApplication using Java 13.0.1 on DESKTOP-KARTEL with PID 10480 (C:\Users\Kartel\eclipse-workspace\AppTrelloboardBackJava\trelloBoard-webapp\target\classes started by Kartel in C:\Users\Kartel\eclipse-workspace\AppTrelloboardBackJava\trelloBoard-webapp)
+2023-07-21 15:05:17.740  INFO 10480 --- [restartedMain] o.t.webapp.TrelloBoardWebappApplication  : No active profile set, falling back to default profiles: default
+2023-07-21 15:05:17.781  INFO 10480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-21 15:05:17.782  INFO 10480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-21 15:05:18.246  INFO 10480 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 15:05:18.306  INFO 10480 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 7 JPA repository interfaces.
+2023-07-21 15:05:19.065  INFO 10480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-21 15:05:19.076  INFO 10480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-21 15:05:19.076  INFO 10480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2023-07-21 15:05:19.144  INFO 10480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-21 15:05:19.144  INFO 10480 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1362 ms
+2023-07-21 15:05:19.280  INFO 10480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-21 15:05:19.386  INFO 10480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-21 15:05:19.429  INFO 10480 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-21 15:05:19.475  INFO 10480 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2023-07-21 15:05:19.609  INFO 10480 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-21 15:05:19.714  INFO 10480 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-07-21 15:05:20.197  INFO 10480 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-21 15:05:20.205  INFO 10480 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 15:05:20.557  WARN 10480 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-21 15:05:20.640  INFO 10480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-21 15:05:20.647 DEBUG 10480 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-07-21 15:05:20.707 DEBUG 10480 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2023-07-21 15:05:20.736 DEBUG 10480 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-07-21 15:05:20.744 DEBUG 10480 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-07-21 15:05:20.814  INFO 10480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-21 15:05:20.875  INFO 10480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-21 15:05:20.882  INFO 10480 --- [restartedMain] o.t.webapp.TrelloBoardWebappApplication  : Started TrelloBoardWebappApplication in 3.575 seconds (JVM running for 3.927)
+2023-07-21 15:06:13.121  INFO 10480 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-21 15:06:13.122  INFO 10480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-21 15:06:13.122 DEBUG 10480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-07-21 15:06:13.123 DEBUG 10480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-07-21 15:06:13.123 DEBUG 10480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-07-21 15:06:13.124 DEBUG 10480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@58692ca9
+2023-07-21 15:06:13.124 DEBUG 10480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@54995f85
+2023-07-21 15:06:13.124 DEBUG 10480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='true': request parameters and headers will be shown which may lead to unsafe logging of potentially sensitive data
+2023-07-21 15:06:13.124  INFO 10480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-21 15:06:13.132 DEBUG 10480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprint/", parameters={}
+2023-07-21 15:06:13.136 DEBUG 10480 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.trelloBoard.webapp.controllers.SprintController#getIt()
+2023-07-21 15:06:13.275 DEBUG 10480 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 15:06:13.275 DEBUG 10480 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Sprint(id=2, sprintNumber=29, startDate=2022-06-01, endDate=2022-07-01, numberOfTasks=1), Sprint(id (truncated)...]
+2023-07-21 15:06:13.317 DEBUG 10480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21 15:16:50.423 DEBUG 10480 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprint/", parameters={}
+2023-07-21 15:16:50.424 DEBUG 10480 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.trelloBoard.webapp.controllers.SprintController#getIt()
+2023-07-21 15:16:50.427 DEBUG 10480 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 15:16:50.427 DEBUG 10480 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Sprint(id=2, sprintNumber=29, startDate=2022-06-01, endDate=2022-07-01, numberOfTasks=1), Sprint(id (truncated)...]
+2023-07-21 15:16:50.428 DEBUG 10480 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21 15:40:20.891  INFO 40832 --- [restartedMain] o.t.webapp.TrelloBoardWebappApplication  : Starting TrelloBoardWebappApplication using Java 13.0.1 on DESKTOP-KARTEL with PID 40832 (C:\Users\Kartel\eclipse-workspace\AppTrelloboardBackJava\trelloBoard-webapp\target\classes started by Kartel in C:\Users\Kartel\eclipse-workspace\AppTrelloboardBackJava\trelloBoard-webapp)
+2023-07-21 15:40:20.893  INFO 40832 --- [restartedMain] o.t.webapp.TrelloBoardWebappApplication  : No active profile set, falling back to default profiles: default
+2023-07-21 15:40:20.935  INFO 40832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-21 15:40:20.935  INFO 40832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-21 15:40:21.377  INFO 40832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21 15:40:21.438  INFO 40832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 7 JPA repository interfaces.
+2023-07-21 15:40:22.151  INFO 40832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-21 15:40:22.161  INFO 40832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-21 15:40:22.162  INFO 40832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2023-07-21 15:40:22.233  INFO 40832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-21 15:40:22.233  INFO 40832 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1297 ms
+2023-07-21 15:40:22.376  INFO 40832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-21 15:40:22.464  INFO 40832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-21 15:40:22.506  INFO 40832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-21 15:40:22.553  INFO 40832 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2023-07-21 15:40:22.696  INFO 40832 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-21 15:40:22.804  INFO 40832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-07-21 15:40:23.309  INFO 40832 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-21 15:40:23.318  INFO 40832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21 15:40:23.685  WARN 40832 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-21 15:40:23.773  INFO 40832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-21 15:40:23.779 DEBUG 40832 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-07-21 15:40:23.840 DEBUG 40832 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2023-07-21 15:40:23.866 DEBUG 40832 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-07-21 15:40:23.873 DEBUG 40832 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-07-21 15:40:23.942  INFO 40832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-21 15:40:24.002  INFO 40832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-21 15:40:24.009  INFO 40832 --- [restartedMain] o.t.webapp.TrelloBoardWebappApplication  : Started TrelloBoardWebappApplication in 3.547 seconds (JVM running for 3.933)
+2023-07-21 15:43:06.427  INFO 40832 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-21 15:43:06.428  INFO 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-21 15:43:06.428 DEBUG 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-07-21 15:43:06.428 DEBUG 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-07-21 15:43:06.429 DEBUG 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-07-21 15:43:06.430 DEBUG 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4b21af96
+2023-07-21 15:43:06.431 DEBUG 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@703b720a
+2023-07-21 15:43:06.431 DEBUG 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='true': request parameters and headers will be shown which may lead to unsafe logging of potentially sensitive data
+2023-07-21 15:43:06.431  INFO 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-07-21 15:43:06.439 DEBUG 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprint/", parameters={}
+2023-07-21 15:43:06.443 DEBUG 40832 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.trelloBoard.webapp.controllers.SprintController#getIt()
+2023-07-21 15:43:06.585 DEBUG 40832 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 15:43:06.586 DEBUG 40832 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Sprint(id=2, sprintNumber=29, startDate=2022-06-01, endDate=2022-07-01, numberOfTasks=1), Sprint(id (truncated)...]
+2023-07-21 15:43:06.622 DEBUG 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21 15:52:04.414 DEBUG 40832 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprint/", parameters={}
+2023-07-21 15:52:04.414 DEBUG 40832 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.trelloBoard.webapp.controllers.SprintController#getIt()
+2023-07-21 15:52:04.418 DEBUG 40832 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 15:52:04.418 DEBUG 40832 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Sprint(id=2, sprintNumber=29, startDate=2022-06-01, endDate=2022-07-01, numberOfTasks=1), Sprint(id (truncated)...]
+2023-07-21 15:52:04.419 DEBUG 40832 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21 15:52:52.344 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprints/", parameters={}
+2023-07-21 15:52:52.346 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2023-07-21 15:52:52.349 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-07-21 15:52:52.349 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-07-21 15:52:52.353 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-07-21 15:52:52.354 DEBUG 40832 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-07-21 15:52:52.360 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 15:52:52.361 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 21 15:52:52 CEST 2023, status=404, error=Not Found, message=No message available, (truncated)...]
+2023-07-21 15:52:52.366 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-07-21 15:55:47.638 DEBUG 40832 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprint/", parameters={}
+2023-07-21 15:55:47.639 DEBUG 40832 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.trelloBoard.webapp.controllers.SprintController#getIt()
+2023-07-21 15:55:47.643 DEBUG 40832 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 15:55:47.644 DEBUG 40832 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Sprint(id=2, sprintNumber=29, startDate=2022-06-01, endDate=2022-07-01, numberOfTasks=1), Sprint(id (truncated)...]
+2023-07-21 15:55:47.645 DEBUG 40832 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21 16:08:57.537 DEBUG 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprint/", parameters={}
+2023-07-21 16:08:57.538 DEBUG 40832 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.trelloBoard.webapp.controllers.SprintController#getIt()
+2023-07-21 16:08:57.541 DEBUG 40832 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 16:08:57.541 DEBUG 40832 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Sprint(id=2, sprintNumber=29, startDate=2022-06-01, endDate=2022-07-01, numberOfTasks=1), Sprint(id (truncated)...]
+2023-07-21 16:08:57.542 DEBUG 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21 16:09:48.922 DEBUG 40832 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprint/", parameters={}
+2023-07-21 16:09:48.923 DEBUG 40832 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.trelloBoard.webapp.controllers.SprintController#getIt()
+2023-07-21 16:09:48.925 DEBUG 40832 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 16:09:48.925 DEBUG 40832 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Sprint(id=2, sprintNumber=29, startDate=2022-06-01, endDate=2022-07-01, numberOfTasks=1), Sprint(id (truncated)...]
+2023-07-21 16:09:48.926 DEBUG 40832 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21 16:25:10.491 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprints/", parameters={}
+2023-07-21 16:25:10.491 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2023-07-21 16:25:10.495 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-07-21 16:25:10.495 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-07-21 16:25:10.495 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-07-21 16:25:10.496 DEBUG 40832 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-07-21 16:25:10.497 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 16:25:10.497 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 21 16:25:10 CEST 2023, status=404, error=Not Found, message=No message available, (truncated)...]
+2023-07-21 16:25:10.498 DEBUG 40832 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-07-21 16:33:13.787 DEBUG 40832 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprint/", parameters={}
+2023-07-21 16:33:13.787 DEBUG 40832 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.trelloBoard.webapp.controllers.SprintController#getIt()
+2023-07-21 16:33:13.793 DEBUG 40832 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 16:33:13.793 DEBUG 40832 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Sprint(id=2, sprintNumber=29, startDate=2022-06-01, endDate=2022-07-01, numberOfTasks=1), Sprint(id (truncated)...]
+2023-07-21 16:33:13.794 DEBUG 40832 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21 16:33:53.719 DEBUG 40832 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprint/", parameters={}
+2023-07-21 16:33:53.719 DEBUG 40832 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.trelloBoard.webapp.controllers.SprintController#getIt()
+2023-07-21 16:33:53.722 DEBUG 40832 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 16:33:53.722 DEBUG 40832 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Sprint(id=2, sprintNumber=29, startDate=2022-06-01, endDate=2022-07-01, numberOfTasks=1), Sprint(id (truncated)...]
+2023-07-21 16:33:53.723 DEBUG 40832 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21 16:34:13.372 DEBUG 40832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprints/", parameters={}
+2023-07-21 16:34:13.373 DEBUG 40832 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2023-07-21 16:34:13.374 DEBUG 40832 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-07-21 16:34:13.375 DEBUG 40832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-07-21 16:34:13.375 DEBUG 40832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-07-21 16:34:13.375 DEBUG 40832 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-07-21 16:34:13.376 DEBUG 40832 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 16:34:13.376 DEBUG 40832 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 21 16:34:13 CEST 2023, status=404, error=Not Found, message=No message available, (truncated)...]
+2023-07-21 16:34:13.377 DEBUG 40832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-07-21 16:34:29.889 DEBUG 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprint/", parameters={}
+2023-07-21 16:34:29.889 DEBUG 40832 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.trelloBoard.webapp.controllers.SprintController#getIt()
+2023-07-21 16:34:29.892 DEBUG 40832 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 16:34:29.893 DEBUG 40832 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Sprint(id=2, sprintNumber=29, startDate=2022-06-01, endDate=2022-07-01, numberOfTasks=1), Sprint(id (truncated)...]
+2023-07-21 16:34:29.894 DEBUG 40832 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21 21:04:18.309 DEBUG 40832 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprint/", parameters={}
+2023-07-21 21:04:18.311 DEBUG 40832 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.trelloBoard.webapp.controllers.SprintController#getIt()
+2023-07-21 21:04:18.325 DEBUG 40832 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 21:04:18.325 DEBUG 40832 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Sprint(id=2, sprintNumber=29, startDate=2022-06-01, endDate=2022-07-01, numberOfTasks=1), Sprint(id (truncated)...]
+2023-07-21 21:04:18.327 DEBUG 40832 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21 21:05:33.064 DEBUG 40832 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprints/", parameters={}
+2023-07-21 21:05:33.064 DEBUG 40832 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2023-07-21 21:05:33.066 DEBUG 40832 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-07-21 21:05:33.066 DEBUG 40832 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-07-21 21:05:33.067 DEBUG 40832 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-07-21 21:05:33.067 DEBUG 40832 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-07-21 21:05:33.068 DEBUG 40832 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 21:05:33.068 DEBUG 40832 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 21 21:05:33 CEST 2023, status=404, error=Not Found, message=No message available, (truncated)...]
+2023-07-21 21:05:33.069 DEBUG 40832 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-07-21 21:10:57.013 DEBUG 40832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprint/", parameters={}
+2023-07-21 21:10:57.014 DEBUG 40832 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.trelloBoard.webapp.controllers.SprintController#getIt()
+2023-07-21 21:10:57.019 DEBUG 40832 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 21:10:57.019 DEBUG 40832 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Sprint(id=2, sprintNumber=29, startDate=2022-06-01, endDate=2022-07-01, numberOfTasks=1), Sprint(id (truncated)...]
+2023-07-21 21:10:57.020 DEBUG 40832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21 21:12:47.630 DEBUG 40832 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprints/", parameters={}
+2023-07-21 21:12:47.630 DEBUG 40832 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2023-07-21 21:12:47.632 DEBUG 40832 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-07-21 21:12:47.632 DEBUG 40832 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-07-21 21:12:47.633 DEBUG 40832 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-07-21 21:12:47.634 DEBUG 40832 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-07-21 21:12:47.634 DEBUG 40832 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 21:12:47.634 DEBUG 40832 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 21 21:12:47 CEST 2023, status=404, error=Not Found, message=No message available, (truncated)...]
+2023-07-21 21:12:47.635 DEBUG 40832 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-07-21 21:19:14.346 DEBUG 40832 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/trelloBoard-webapp/webapi/sprint/", parameters={}
+2023-07-21 21:19:14.347 DEBUG 40832 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.trelloBoard.webapp.controllers.SprintController#getIt()
+2023-07-21 21:19:14.351 DEBUG 40832 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-07-21 21:19:14.351 DEBUG 40832 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Sprint(id=2, sprintNumber=29, startDate=2022-06-01, endDate=2022-07-01, numberOfTasks=1), Sprint(id (truncated)...]
+2023-07-21 21:19:14.352 DEBUG 40832 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

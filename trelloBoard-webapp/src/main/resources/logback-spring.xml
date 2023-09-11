@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<property name="LOG_FILE"
+		value="${LOG_FILE:-${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}}/spring.log}" />
+	<include
+		resource="org/springframework/boot/logging/logback/defaults.xml" />
+	<include
+		resource="org/springframework/boot/logging/logback/console-appender.xml" />
+	<include
+		resource="org/springframework/boot/logging/logback/file-appender.xml" />
+
+	<springProperty name="SERVICE_NAME"
+		source="spring.application.name" />
+
+	<appender name="ECS_JSON_FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<encoder class="co.elastic.logging.logback.EcsEncoder">
+			<serviceName>${SERVICE_NAME:-spring-boot-application}</serviceName>
+			<serviceVersion>${project.version}</serviceVersion>
+			<serviceEnvironment>DEV</serviceEnvironment>
+		</encoder>
+		<file>${LOG_FILE}.json</file>
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			rollover daily and when the file reaches 10 MegaBytes
+			<fileNamePattern>${ROLLING_FILE_NAME_PATTERN:-${LOG_FILE}.json.%d{yyyy-MM-dd}.%i.gz}
+			</fileNamePattern>
+			<maxFileSize>10MB</maxFileSize>
+		</rollingPolicy>
+	</appender>
+	<root level="INFO">
+		<!-- <appender-ref ref="ECS_JSON_CONSOLE" /> -->
+		<appender-ref ref="CONSOLE" />
+		<appender-ref ref="ECS_JSON_FILE" />
+		<appender-ref ref="FILE" />
+	</root>
+</configuration>
