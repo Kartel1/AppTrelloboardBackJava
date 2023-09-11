@@ -55,6 +55,11 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/co.elastic.logging/logback-ecs-encoder -->
+		<dependency>
+			<groupId>co.elastic.logging</groupId>
+			<artifactId>logback-ecs-encoder</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
