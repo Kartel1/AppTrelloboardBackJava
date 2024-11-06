@@ -1,4 +1,4 @@
-package org.trelloBoard.business;
+package org.trelloBoard.business.services;
 
 import java.util.List;
 
@@ -7,7 +7,10 @@ import org.springframework.stereotype.Service;
 import org.trelloBoard.consumer.SprintConsumer;
 import org.trelloBoard.model.Sprint;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Service
+@Slf4j
 public class SprintService {
 
   private final SprintConsumer getSprint;
@@ -18,6 +21,9 @@ public class SprintService {
   }
 
     public List<Sprint> getSprintFromDB() {
-      return this.getSprint.getSprintConsumer();
+
+    	List<Sprint> sprintList = this.getSprint.getSprintConsumer();
+    	return sprintList;
+    	//      return this.getSprint.getSprintConsumer();
     }
 }

@@ -1,3 +1,3 @@
-package org.trelloBoard.business;
+package org.trelloBoard.business.services;
 
 public class CardService {}
